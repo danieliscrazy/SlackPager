@@ -5,7 +5,7 @@ description: "Arduino-powered pager that syncs with Slack!"
 created_at: "2025-07-04"
 ---
 
-> I have been working on this for 2 hours.
+> I have been working on this for 2 hours and 15 minutes.
 
 ### July 4th, 2025
 
@@ -16,3 +16,7 @@ created_at: "2025-07-04"
 5:50 PM: Ok so, after a bit of research it turns out, after shipping, it'd actually be cheaper to buy a bigger battery that they do have in stock at Micro Center than to buy one from Adafruit, specifically [this one](https://www.microcenter.com/product/636273/adafruit-industries-lithium-ion-cylindrical-battery-37v-2200mah). It is a bit big, so I'm gonna make a rudimentary 3D model of like an outline of the case just to make sure that it'll fit into the form factor. I'm gonna go to Micro Center tomorrow.
 
 6:10 PM: Wasn't able to do much with that right now. Just gonna have to wait for the parts from Micro Center. Can't do much more work today.
+
+### July 5th, 2025
+
+2:30 PM: Got the parts from Micro Center. Ended up buying [this small speaker](https://www.microcenter.com/product/612829/adafruit-industries-mini-metal-speaker-w-wires-8-ohm-05w) instead of a piezo buzzer, and bought this [1x4 keypad](https://www.microcenter.com/product/613569/adafruit-industries-membrane-1x4-keypad-extras) that I may or may not use (I'll pay for it myself if I don't use it) due to the fact that I have exactly 3 push buttons, and they're a bit fragile. I am seeing a potential issue now, because I didn't realize that the ESP8266 board has only 9 GPIO pins (I also believe there's some weird functionality with like 3 of them, not entirely sure), and I'd be using exactly 9 pins (that is, if I used 3 buttons instead of 4. If I end up using the keypad, might need to cut it or mod it in some way). I'm gonna work on testing out the display and wiring now. Also before I commit this journal log, I should note that I just realized I can't actually use that speaker! It'll fry the ESP8266. I might have a piezo somewhere around here, but it's definitely less than ideal.
