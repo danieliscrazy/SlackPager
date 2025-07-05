@@ -5,7 +5,7 @@ description: "Arduino-powered pager that syncs with Slack!"
 created_at: "2025-07-04"
 ---
 
-> I have been working on this for 2 hours and 15 minutes.
+> I have been working on this for 2 hours and 55 minutes.
 
 ### July 4th, 2025
 
@@ -20,3 +20,9 @@ created_at: "2025-07-04"
 ### July 5th, 2025
 
 2:30 PM: Got the parts from Micro Center. Ended up buying [this small speaker](https://www.microcenter.com/product/612829/adafruit-industries-mini-metal-speaker-w-wires-8-ohm-05w) instead of a piezo buzzer, and bought this [1x4 keypad](https://www.microcenter.com/product/613569/adafruit-industries-membrane-1x4-keypad-extras) that I may or may not use (I'll pay for it myself if I don't use it) due to the fact that I have exactly 3 push buttons, and they're a bit fragile. I am seeing a potential issue now, because I didn't realize that the ESP8266 board has only 9 GPIO pins (I also believe there's some weird functionality with like 3 of them, not entirely sure), and I'd be using exactly 9 pins (that is, if I used 3 buttons instead of 4. If I end up using the keypad, might need to cut it or mod it in some way). I'm gonna work on testing out the display and wiring now. Also before I commit this journal log, I should note that I just realized I can't actually use that speaker! It'll fry the ESP8266. I might have a piezo somewhere around here, but it's definitely less than ideal.
+
+2:45 PM: I say 2:45 PM just so I can keep track of my time. As of writing, it's actually closer to 3:25. After a bit of debugging and a bit of ChatGPTing, I found out that the display is _not_ an SSD1306, but an SH1106. Also found out it's blue for some reason. Anyways, I got that part working! Now I think I'm gonna work on code and getting it to receive Slack messages and display them.
+
+![image](https://github.com/user-attachments/assets/8cdc94c0-e6ab-40c0-aab1-b9c5dcf8b012)
+> The working demo code!
+
