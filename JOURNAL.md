@@ -5,7 +5,7 @@ description: "Arduino-powered pager that syncs with Slack!"
 created_at: "2025-07-04"
 ---
 
-> I have been working on this for 2 hours and 55 minutes.
+> I have been working on this for 4 hours.
 
 ### July 4th, 2025
 
@@ -26,3 +26,10 @@ created_at: "2025-07-04"
 ![image](https://github.com/user-attachments/assets/8cdc94c0-e6ab-40c0-aab1-b9c5dcf8b012)
 > The working demo code!
 
+3:25 PM: I'm trying really hard to not vibe code this, however tempting. I'm trying to code the Slack bot side of things first, I would just use webhooks but I think in order to actually verify the things I need to verify, I need to code a bot. It's now roughly 4:15. You know when I said I was gonna try really hard not to vibe code this, literally 3 sentences ago? I gave up. I had ChatGPT make me a basic thing that when a message is sent in #pager in the slack, it sends a notification to the console. It works I guess! I've also gotten Adafruit IO hooked up to a webhook, and it sends words! Now I need to code the Arduino end of things.
+
+![image](https://github.com/user-attachments/assets/489f4946-f0e0-4ed0-baed-301f7ae764c6)
+> The demo code receiving a message
+
+![image](https://github.com/user-attachments/assets/bff1cb36-6065-4d98-80c1-59d1ceae60ea)
+> Webhook works! Don't ask why the PFP is a tie. I won't tell you.
