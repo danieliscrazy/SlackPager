@@ -5,7 +5,7 @@ description: "Arduino-powered pager that syncs with Slack!"
 created_at: "2025-07-04"
 ---
 
-> I have been working on this for 4 hours.
+> I have been working on this for 4 hours and 50 minutes.
 
 ### July 4th, 2025
 
@@ -33,3 +33,5 @@ created_at: "2025-07-04"
 
 ![image](https://github.com/user-attachments/assets/bff1cb36-6065-4d98-80c1-59d1ceae60ea)
 > Webhook works! Don't ask why the PFP is a tie. I won't tell you.
+
+4:30 PM: I'm just making this commit so that I can keep track of time. My time system is literally just, when I'm done with one journal entry, I start a new one, and I take the time from then to when I commit and add it to the time at the top of the page.
