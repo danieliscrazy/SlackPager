@@ -52,7 +52,7 @@ created_at: "2025-07-04"
 
 2:15 PM: The Arduino gods hate me. One of the buttons refuses to work, no matter what pin I do. I know it's something code related, but what it is, that's a mystery. Taking a break.
 
-3:30 PM: After what literally feels like an eternity, I got the button fixed. For some damn reason, pins 4, 5, 12, and 15 refused to work as an input. Pin 0 worked for some reason. Doesn't matter why as long as it works. Anyways, IT WORKS NOW!!!! It can receive messages and it can send back 6 different quick response messages. This means the code is basically complete! It might be missing a bit of polish, but everything that needs to work, works. It also turns out that my board is the only Feather board to not have onboard power voltage sensing. I can potentially get that set up, but I'm not gonna focus on that right now.
+3:30 PM: After what literally feels like an eternity, I got the button fixed. For some damn reason, pins 4, 5, 12, and 15 refused to work as an input. Pin 0 worked for some reason. Doesn't matter why as long as it works. Anyways, IT WORKS NOW!!!! It can receive messages and it can send back 6 different quick response messages. This means the code is basically complete! It might be missing a bit of polish, but everything that needs to work, works. It also turns out that my board is the only Feather board to not have onboard power voltage sensing. I can potentially get that set up, but I'm not gonna focus on that right now. Gonna take a break for a bit and then I'll work on 3D modeling.
 
 ![image](https://github.com/user-attachments/assets/f6f52bb1-a387-4152-8fe7-187d5f20b233)
 > Example of the quick responses!
