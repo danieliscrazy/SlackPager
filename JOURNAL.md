@@ -5,7 +5,9 @@ description: "Arduino-powered pager that syncs with Slack!"
 created_at: "2025-07-04"
 ---
 
-> I have been working on this for 6 hours and 45 minutes.
+> I have been working on this for 8 hours and 45 minutes.
+
+> Also feel I should note, the times here are just the time I started typing/working. If an entry says it was at 3:45, it was actually the time between 3:45 and the next journal entry. I know it's a bit of a confusing system, but it works!
 
 ### July 4th, 2025
 
@@ -45,3 +47,5 @@ created_at: "2025-07-04"
 11:30 AM: AAAA, we're getting so close to Undercity!! I'm so damn excited!! Anyways, I'm gonna start working on the Slack code. Also I forgot to say in the last journal entry, I am proud to say that I did _not_ vibecode the Arduino code. Everything there so far is directly from templates or my brain. Can't say the same about the Slack bot code, I was hoping to not vibecode that as much as I could, but it's not looking too promising. 
 
 12:00 PM: Yeah I used AI. Not proud of it, but my Slack code is working now! When I send a message in the channel, it sends it to the pager! Now I'm gonna start working on figuring out a menu here, probably need to make a seperate code file for figuring that out. Also, please excuse me for my lack of pictures, it's a bit of a mess in my room and at this point anything I did would have to be a video, which complicates things further. I'll have a lot more once I start working on the case.
+
+12:15 PM: I have spent way too long debugging something, and I just realized that it was because 2 pins were taken on the ESP8266 by I2C/SPI stuff. I was able to free up one pin, but not another, and I just realized... I don't _need_ three buttons. I can have 1 arrow button to cycle through the menu, and one to select. With that debugged, hopefully I'll be able to figure this out soon. Also just spent a solid 10 minutes trying to figure out why the piezo wasn't working, and my dumb ass forgot to change the pin in the part that plays the tone. Anyways, it's been like 2 hours since I started this journal entry, I got a working menu! Need to hook it up to the main code so it can actually... do stuff. Gonna do that now.
