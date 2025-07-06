@@ -5,7 +5,7 @@ description: "Arduino-powered pager that syncs with Slack!"
 created_at: "2025-07-04"
 ---
 
-> I have been working on this for 10 hours and 45 minutes.
+> I have been working on this for 11 hours and 5 minutes.
 
 > Also feel I should note, the times here are just the time I started typing/working. If an entry says it was at 3:45, it was actually the time between 3:45 and the next journal entry. I know it's a bit of a confusing system, but it works!
 
@@ -56,3 +56,5 @@ created_at: "2025-07-04"
 
 ![image](https://github.com/user-attachments/assets/f6f52bb1-a387-4152-8fe7-187d5f20b233)
 > Example of the quick responses!
+
+4:45 PM: Starting on 3D modeling. Bit harder here, because it's a lot more stuff to wire, and I have to do it in such a small space. Dear god, I didn't even think about wiring until now. I might have to get a custom length wiring thing to fit it all in here. I'm realizing, as I'm trying to work on this, this is extremely out of my league. I have no clue how to do most of this stuff. I've never made something so compact before. I'm gonna make a wiring diagram and come back to this.
