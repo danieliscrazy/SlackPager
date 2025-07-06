@@ -5,7 +5,7 @@ description: "Arduino-powered pager that syncs with Slack!"
 created_at: "2025-07-04"
 ---
 
-> I have been working on this for 9 hours and 40 minutes.
+> I have been working on this for 10 hours and 45 minutes.
 
 > Also feel I should note, the times here are just the time I started typing/working. If an entry says it was at 3:45, it was actually the time between 3:45 and the next journal entry. I know it's a bit of a confusing system, but it works!
 
@@ -51,3 +51,8 @@ created_at: "2025-07-04"
 12:15 PM: I have spent way too long debugging something, and I just realized that it was because 2 pins were taken on the ESP8266 by I2C/SPI stuff. I was able to free up one pin, but not another, and I just realized... I don't _need_ three buttons. I can have 1 arrow button to cycle through the menu, and one to select. With that debugged, hopefully I'll be able to figure this out soon. Also just spent a solid 10 minutes trying to figure out why the piezo wasn't working, and my dumb ass forgot to change the pin in the part that plays the tone. Anyways, it's been like 2 hours since I started this journal entry, I got a working menu! Need to hook it up to the main code so it can actually... do stuff. Gonna do that now.
 
 2:15 PM: The Arduino gods hate me. One of the buttons refuses to work, no matter what pin I do. I know it's something code related, but what it is, that's a mystery. Taking a break.
+
+3:30 PM: After what literally feels like an eternity, I got the button fixed. For some damn reason, pins 4, 5, 12, and 15 refused to work as an input. Pin 0 worked for some reason. Doesn't matter why as long as it works. Anyways, IT WORKS NOW!!!! It can receive messages and it can send back 6 different quick response messages. This means the code is basically complete! It might be missing a bit of polish, but everything that needs to work, works. It also turns out that my board is the only Feather board to not have onboard power voltage sensing. I can potentially get that set up, but I'm not gonna focus on that right now.
+
+![image](https://github.com/user-attachments/assets/f6f52bb1-a387-4152-8fe7-187d5f20b233)
+> Example of the quick responses!
