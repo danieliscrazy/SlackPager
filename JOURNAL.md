@@ -5,7 +5,7 @@ description: "Arduino-powered pager that syncs with Slack!"
 created_at: "2025-07-04"
 ---
 
-> I have been working on this for 6 hours and 30 minutes.
+> I have been working on this for 6 hours and 45 minutes.
 
 ### July 4th, 2025
 
@@ -43,3 +43,5 @@ created_at: "2025-07-04"
 ### July 6th, 2025
 
 11:30 AM: AAAA, we're getting so close to Undercity!! I'm so damn excited!! Anyways, I'm gonna start working on the Slack code. Also I forgot to say in the last journal entry, I am proud to say that I did _not_ vibecode the Arduino code. Everything there so far is directly from templates or my brain. Can't say the same about the Slack bot code, I was hoping to not vibecode that as much as I could, but it's not looking too promising. 
+
+12:00 PM: Yeah I used AI. Not proud of it, but my Slack code is working now! When I send a message in the channel, it sends it to the pager! Now I'm gonna start working on figuring out a menu here, probably need to make a seperate code file for figuring that out. Also, please excuse me for my lack of pictures, it's a bit of a mess in my room and at this point anything I did would have to be a video, which complicates things further. I'll have a lot more once I start working on the case.
