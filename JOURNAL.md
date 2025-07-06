@@ -5,7 +5,7 @@ description: "Arduino-powered pager that syncs with Slack!"
 created_at: "2025-07-04"
 ---
 
-> I have been working on this for 6 hours.
+> I have been working on this for 6 hours and 30 minutes.
 
 ### July 4th, 2025
 
@@ -39,3 +39,7 @@ created_at: "2025-07-04"
 5:20 PM: Okay, I've got some semblance of functionality working. When the bot gets a message, it'll make two webhook requests, one to the "sender" feed, and one to the "message" feed. It'll send the message first, then immediately after, the sender. When it receives the sender (and this here is the currently implemented functionality), it'll blink the sender a couple times, then display the message. Currently trying to wire up a piezo to it but... I can't find any breadboards. All my breadboards are missing. I have like 10. Where the hell did they go?? I only have one ground pin, so I definitely need one. Where the hell are they???
 
 6:20 PM: Okay, piezo hooked up, one button hooked up that triggers a message in #pager. Basically what I need to add to the arduino side to make it done software-wise is add a menu for responses, add battery voltage tracking, figure out an on off switch, and kinda just polish it more. I still need to do most of the Slack code. This is where I'm ending it tonight.
+
+### July 6th, 2025
+
+11:30 AM: AAAA, we're getting so close to Undercity!! I'm so damn excited!! Anyways, I'm gonna start working on the Slack code. Also I forgot to say in the last journal entry, I am proud to say that I did _not_ vibecode the Arduino code. Everything there so far is directly from templates or my brain. Can't say the same about the Slack bot code, I was hoping to not vibecode that as much as I could, but it's not looking too promising. 
