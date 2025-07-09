@@ -64,3 +64,7 @@ created_at: "2025-07-04"
 ### July 7th, 2025
 
 12:20 PM: I'm getting back to work on the case. Damn it, I don't know what to do. The main issue is the buttons. I have two push buttons on a protoboard, which I'll eventually need to cut to size. I've got no clue where they need to go, and I'll also have to put in pressable button shell things on top of them. I think I'd be able to do this if it was an already existing 2 button module, but just the fact that it needs to be placed, soldered, and cut first is making it really hard for me to do anything.I'm almost at the point where I just want to try to modify it further and just make it 1 button, because I already have a module for a single button, but I think that would be overcomplicating it. Or maybe oversimplifying it? No clue. Getting quite frustrated.
+
+### July 9th, 2025
+
+10:20 AM: I lost all of my Arduino files. Then I found them again. Once again reminded of the glory of Git. Gonna remove the secrets from the files and upload them. Not counting this time in the total. 
