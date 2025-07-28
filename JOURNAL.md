@@ -5,7 +5,7 @@ description: "Arduino-powered pager that syncs with Slack!"
 created_at: "2025-07-04"
 ---
 
-> I have been working on this for 14 hours and 15 minutes.
+> I have been working on this for 15 hours and 45 minutes.
 
 > Also feel I should note, the times here are just the time I started typing/working. If an entry says it was at 3:45, it was actually the time between 3:45 and the next journal entry. I know it's a bit of a confusing system, but it works!
 
@@ -77,3 +77,15 @@ created_at: "2025-07-04"
 ### July 28th, 2025
 
 9:00 AM: Been a while, hasn't it? Finally received my PCBs (the Undercity PCB mill wasn't adequate, had to wait until yesterday to get my PCB from JLC), but I'm still on a trip, so no soldering for me. Working on CAD for it now. I have all the parts except for the display (which, thank god, I already measured), so I can use a caliper and measure out the whole thing. Time to get to work!
+
+10:15 AM: Took a bit of a break. Still working now. Not much done yet, currently trying to model the PCB and device itself, but struggling to get the exact measurements. Trying to use Onshape just for this part, but the site hasn't been loading, at least until... right as I was typing this.
+
+11:00 AM: Onshape didn't work for what I need it to. Back to TinkerCAD it is! I got the battery holder design mostly down, but that's very simple. I've gotten most of the board modeled as a reference, everything should be accurate except for the buttons, as I forgot to bring them with me, and my caliper's giving me 8mm apart while my gerber file says 12, so I'm just guesstimating for now. All that matters is that I actually _have_ the case, and it'd in theory work, whether or not it works exactly can be fixed before the build deadline. Have to go do stuff right now, time is 11:45 for my own reference.
+
+<img width="650" height="275" alt="Screen Shot 2025-07-28 at 11 09 47 AM" src="https://github.com/user-attachments/assets/549ecc76-083c-44a3-bb86-6ee486ca4aa9" />
+
+> The battery holder
+
+<img width="935" height="543" alt="Screen Shot 2025-07-28 at 11 43 51 AM" src="https://github.com/user-attachments/assets/17f206ff-fa9c-4559-a3df-a3702d24a250" />
+
+>The back and front side of the PCB, in glorious low poly.
