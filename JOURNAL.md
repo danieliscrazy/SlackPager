@@ -5,7 +5,7 @@ description: "Arduino-powered pager that syncs with Slack!"
 created_at: "2025-07-04"
 ---
 
-> I have been working on this for 15 hours and 45 minutes.
+> I have been working on this for 16 hours.
 
 > Also feel I should note, the times here are just the time I started typing/working. If an entry says it was at 3:45, it was actually the time between 3:45 and the next journal entry. I know it's a bit of a confusing system, but it works!
 
@@ -89,3 +89,15 @@ created_at: "2025-07-04"
 <img width="935" height="543" alt="Screen Shot 2025-07-28 at 11 43 51 AM" src="https://github.com/user-attachments/assets/17f206ff-fa9c-4559-a3df-a3702d24a250" />
 
 >The back and front side of the PCB, in glorious low poly.
+
+12:00 PM: Bit unsure where to start, so I'm building a general frame for the PCB for now. 
+
+<img width="476" height="574" alt="Screen Shot 2025-07-28 at 12 31 50 PM" src="https://github.com/user-attachments/assets/8f54e552-74da-4b45-a398-aaa147a76a57" />
+
+> The frame for the board. The hole is for the piezo buzzer, and I just put nothing where the ESP8266 will go, and a hole at the bottom for the battery cable to go through.
+
+12:30 PM: Trying to put the frame and the battery holder together as one bottom piece now. Haven't made the outer wall yet, but need to leave for a bit.
+
+<img width="857" height="790" alt="Screen Shot 2025-07-28 at 12 49 25 PM" src="https://github.com/user-attachments/assets/0e10c38b-76f7-4410-97ff-9361aa8f3987" />
+
+> The piece as one. Note that I left one side open- that's on purpose for the USB cable so I can upload code and recharge it.
