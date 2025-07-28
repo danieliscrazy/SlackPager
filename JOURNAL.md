@@ -5,7 +5,7 @@ description: "Arduino-powered pager that syncs with Slack!"
 created_at: "2025-07-04"
 ---
 
-> I have been working on this for 16 hours.
+> I have been working on this for 16 hours and 30 minutes.
 
 > Also feel I should note, the times here are just the time I started typing/working. If an entry says it was at 3:45, it was actually the time between 3:45 and the next journal entry. I know it's a bit of a confusing system, but it works!
 
@@ -101,3 +101,9 @@ created_at: "2025-07-04"
 <img width="857" height="790" alt="Screen Shot 2025-07-28 at 12 49 25 PM" src="https://github.com/user-attachments/assets/0e10c38b-76f7-4410-97ff-9361aa8f3987" />
 
 > The piece as one. Note that I left one side open- that's on purpose for the USB cable so I can upload code and recharge it.
+
+4:00 PM: Made the bottom half of the case completely (I think)! Made it rounded, so instead of a box, it'll be a... rounded box! I am not very creative. Might have to be, because the battery is taller than the PCB and other electronics, and I need the buttons and screen to be very close to the case. This might be where I stop for today.
+
+<img width="738" height="544" alt="Screen Shot 2025-07-28 at 4 23 28 PM" src="https://github.com/user-attachments/assets/dd7a663c-a21a-44f1-b441-0e19f8791dca" />
+
+> The bottom case!
