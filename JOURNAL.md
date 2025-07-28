@@ -5,7 +5,7 @@ description: "Arduino-powered pager that syncs with Slack!"
 created_at: "2025-07-04"
 ---
 
-> I have been working on this for 13 hours and 30 minutes.
+> I have been working on this for 14 hours and 15 minutes.
 
 > Also feel I should note, the times here are just the time I started typing/working. If an entry says it was at 3:45, it was actually the time between 3:45 and the next journal entry. I know it's a bit of a confusing system, but it works!
 
@@ -73,3 +73,7 @@ created_at: "2025-07-04"
 
 ![image](https://github.com/user-attachments/assets/26f8783e-3838-4581-b23d-59ada369f5de)
 > My PCB! 
+
+### July 28th, 2025
+
+9:00 AM: Been a while, hasn't it? Finally received my PCBs (the Undercity PCB mill wasn't adequate, had to wait until yesterday to get my PCB from JLC), but I'm still on a trip, so no soldering for me. Working on CAD for it now. I have all the parts except for the display (which, thank god, I already measured), so I can use a caliper and measure out the whole thing. Time to get to work!
