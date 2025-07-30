@@ -2,11 +2,20 @@
 
 This project is a pager powered by an Adafruit Feather HUZZAH ESP8266. It interfaces with Slack so that when you send a message in #pager in the Hack Club Slack, it notifies you by playing a little ringtone and then displaying the message and sender. It also has a quick response menu to send a few prewritten responses to messages you receive.
 
-As of right now, everything is working, however it's not in its final built state, as I can't fit everything into a case without a PCB, and I can't get the measurements to make said case either until I get the PCB. It should be coming very soon, and I will definitely be able to submit it as built before the build deadline, but I don't think I can get the case designed before the submission deadline of July 31st.
+All code has been tested and is working (battery voltage tracking functionality needs to be added still, but it's not essential). All that's needed is to solder parts to the PCB and to print out the case.
 
 ## Gallery
 
-I don't have any pictures of the whole working setup unfortunately, and I can't get them right now as I'm away from home. Here are the pictures I put in my journal though!
+<img width="533" height="619" alt="Screen Shot 2025-07-30 at 12 51 23 PM" src="https://github.com/user-attachments/assets/8e512df0-ab96-49b3-b521-3cd0e1ec1679" />
+
+> Closest thing I can get to a render.
+
+<img width="755" height="353" alt="Screen Shot 2025-07-30 at 12 53 10 PM" src="https://github.com/user-attachments/assets/f3725242-b9e7-40f6-a647-93d9e3102da6" />
+
+> All of the parts (including the stand in for the electronics).
+
+![image](https://github.com/user-attachments/assets/26f8783e-3838-4581-b23d-59ada369f5de)
+> My PCB! 
 
 ![image](https://github.com/user-attachments/assets/8cdc94c0-e6ab-40c0-aab1-b9c5dcf8b012)
 > The demo code running on the OLED
@@ -14,14 +23,12 @@ I don't have any pictures of the whole working setup unfortunately, and I can't 
 ![image](https://github.com/user-attachments/assets/f6f52bb1-a387-4152-8fe7-187d5f20b233)
 > Example of the quick responses!
 
-![image](https://github.com/user-attachments/assets/26f8783e-3838-4581-b23d-59ada369f5de)
-> My PCB! 
 
 
 
 ## BOM
 
-(Note: I've already purchased everything. As of writing this, I have everything except for the PCB, and it's working.)
+(Note: I've already purchased everything. As of writing this, I have everything, and it's all been tested and working save for the PCB, which will be tested soon.)
 
 | Item | Use | Source | Price | Total Price |
 | ---- | --- | ------ | ----- | ----------- |
