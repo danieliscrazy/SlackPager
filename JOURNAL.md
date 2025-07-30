@@ -5,7 +5,7 @@ description: "Arduino-powered pager that syncs with Slack!"
 created_at: "2025-07-04"
 ---
 
-> I have been working on this for 16 hours and 30 minutes.
+> I have been working on this for 18 hours and 30 minutes.
 
 > Also feel I should note, the times here are just the time I started typing/working. If an entry says it was at 3:45, it was actually the time between 3:45 and the next journal entry. I know it's a bit of a confusing system, but it works!
 
@@ -107,3 +107,29 @@ created_at: "2025-07-04"
 <img width="738" height="544" alt="Screen Shot 2025-07-28 at 4 23 28 PM" src="https://github.com/user-attachments/assets/dd7a663c-a21a-44f1-b441-0e19f8791dca" />
 
 > The bottom case!
+
+### July 30th, 2025
+
+11:00 AM: Getting to work on the top case. Main issue I'm facing now is I need to curve the case down from the battery. I made this very bad diagram to show you what I'm talking about.
+
+<img width="440" height="262" alt="Screen Shot 2025-07-30 at 11 31 44 AM" src="https://github.com/user-attachments/assets/7add4111-c75e-43de-b703-88f7c1fc5038" />
+
+I need to do that. Issue I'm seeing now is, TinkerCAD (being TinkerCAD) doesn't have a curve like that. I'm thinking I'll have to do some trickery to do that.
+
+12:00 PM: Working on the stuff other than that first. Got the cutout for the display done. Other thing I'm concerned about is the buttons. I'm likely just going to make caps that snap onto the buttons, but I can't get dimensions of my exact buttons right now, and online results are extremely varied. I'm gonna make the caps without the holes to interface the buttons for now, and I'll measure them tomorrow, when I get back home.
+
+<img width="533" height="570" alt="Screen Shot 2025-07-30 at 11 52 19 AM" src="https://github.com/user-attachments/assets/76b35a0f-3c2d-448d-bd47-3fc5de9e2024" />
+
+> Where I'm at right now.
+
+12:30 PM: Buttons were a lot easier than I thought. Made them, put holes into the case, and also it's looking like that I won't need to have a curve for the battery! The case is already thick enough! With that, I think I've finished my case! Wait, no, I still need to figure out how to connect the two pieces of the case together. Also gonna see if I can add like a design or something to the top case, because it's kinda just a big empty space. Although I was planning to print with no supports, that side down, so that probably wouldn't work. Maybe I'll just put some stickers on it afterwards.
+
+1:00 PM: I think I am finally done! The only aspects that are not done in this project (minus the build itself) is battery voltage detection (optional but I put places for resistors on the PCB so I can make it work) and putting in the holes for the buttons, both of which I'll do after I get back home. Gonna export the files and upload them to the repo, and then modify the README.
+
+<img width="533" height="619" alt="Screen Shot 2025-07-30 at 12 51 23 PM" src="https://github.com/user-attachments/assets/8e512df0-ab96-49b3-b521-3cd0e1ec1679" />
+
+> A top down view of the whole thing.
+
+<img width="755" height="353" alt="Screen Shot 2025-07-30 at 12 53 10 PM" src="https://github.com/user-attachments/assets/f3725242-b9e7-40f6-a647-93d9e3102da6" />
+
+> All of the parts (including the stand in for the electronics)!
