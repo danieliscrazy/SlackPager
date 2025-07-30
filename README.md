@@ -1,9 +1,10 @@
 # SlackPager
 
-This project is a pager powered by an Adafruit Feather HUZZAH ESP8266. It interfaces with Slack so that when you send a message in #pager in the Hack Club Slack, it notifies you by playing a little ringtone and then displaying the message and sender. It also has a quick response menu to send a few prewritten responses to messages you receive.
+This project is a pager powered by an Adafruit Feather HUZZAH ESP8266. It interfaces with Slack so that when you send a message in #pager in the Hack Club Slack, it notifies you by playing a little ringtone and then displaying the message and sender. It also has a quick response menu to send a few prewritten responses to messages you receive. I got the idea because Slack had been really glitchy on my phone recently, and it wasn't always sending me notifications, so I thought "What if I made a device that was just for Slack notifications?" My hope in the future is to expand it to not just #pager, but everywhere I'd typically receive a notification as well. This project was made for and funded by Hack Club's Highway program.
 
 All code has been tested and is working (battery voltage tracking functionality needs to be added still, but it's not essential). All that's needed is to solder parts to the PCB and to print out the case.
 
+(Note for Highway reviewers: I use TinkerCAD, which _cannot_ export .STEP files, only .STL files. In the future, I'll learn and use Onshape, but I don't have much choice right now. Sorry!)
 ## Gallery
 
 <img width="533" height="619" alt="Screen Shot 2025-07-30 at 12 51 23 PM" src="https://github.com/user-attachments/assets/8e512df0-ab96-49b3-b521-3cd0e1ec1679" />
