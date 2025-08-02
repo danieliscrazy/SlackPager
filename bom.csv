@@ -1,6 +1,6 @@
 Item,Use,Source,Price,Total Price
 Adafruit Feather HUZZAH ESP8266,Main microcontroller,Micro Center (in person) https://www.microcenter.com/product/460313/adafruit-industries-feather-huzzah-with-esp8266-wifi ,$18.45,
-Inland 1.3" OLED Display,To display things,Micro Center (in person) https://www.microcenter.com/product/643965/inland-iic-spi-13-128x64-oled-v20-graphic-display-module-for-arduino-uno-r3,$8.70,
+Inland 1.3 OLED Display,To display things,Micro Center (in person) https://www.microcenter.com/product/643965/inland-iic-spi-13-128x64-oled-v20-graphic-display-module-for-arduino-uno-r3,$8.70,
 Adafruit Li-ion Battery (3.7V 2200mAh),Battery; a bit overkill but actually cheaper than buying a smaller one online,Micro Center (in person) https://www.microcenter.com/product/636273/adafruit-industries-lithium-ion-cylindrical-battery-37v-2200mah,$16.32,
 PCB,Can't fit it into the case without one,JLCPCB,$4.49,
 Piezo buzzer,Buzz buzz!,Already owned,$0.00,
