@@ -7,16 +7,17 @@ All code has been tested and is working (battery voltage tracking functionality 
 (Note for Highway reviewers: I use TinkerCAD, which _cannot_ export .STEP files, only .STL files. In the future, I'll learn and use Onshape, but I don't have much choice right now. Sorry!)
 ## Gallery
 
-<img width="533" height="619" alt="Screen Shot 2025-07-30 at 12 51 23 PM" src="https://github.com/user-attachments/assets/8e512df0-ab96-49b3-b521-3cd0e1ec1679" />
-
+![image](https://github.com/user-attachments/assets/8e512df0-ab96-49b3-b521-3cd0e1ec1679)
 > Closest thing I can get to a render.
 
-<img width="755" height="353" alt="Screen Shot 2025-07-30 at 12 53 10 PM" src="https://github.com/user-attachments/assets/f3725242-b9e7-40f6-a647-93d9e3102da6" />
-
+![image]("https://github.com/user-attachments/assets/f3725242-b9e7-40f6-a647-93d9e3102da6)
 > All of the parts (including the stand in for the electronics).
 
 ![image](https://github.com/user-attachments/assets/26f8783e-3838-4581-b23d-59ada369f5de)
 > My PCB! 
+
+![image](https://github.com/user-attachments/assets/78e99f1f-ae72-49a1-aad9-a0e0f041cc12)
+> My schematic! 
 
 ![image](https://github.com/user-attachments/assets/8cdc94c0-e6ab-40c0-aab1-b9c5dcf8b012)
 > The demo code running on the OLED
