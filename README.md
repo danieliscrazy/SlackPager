@@ -10,7 +10,7 @@ All code has been tested and is working (battery voltage tracking functionality 
 ![image](https://github.com/user-attachments/assets/8e512df0-ab96-49b3-b521-3cd0e1ec1679)
 > Closest thing I can get to a render.
 
-![image]("https://github.com/user-attachments/assets/f3725242-b9e7-40f6-a647-93d9e3102da6)
+![image](https://github.com/user-attachments/assets/f3725242-b9e7-40f6-a647-93d9e3102da6)
 > All of the parts (including the stand in for the electronics).
 
 ![image](https://github.com/user-attachments/assets/26f8783e-3838-4581-b23d-59ada369f5de)
