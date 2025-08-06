@@ -13,7 +13,7 @@ All code has been tested and is working (battery voltage tracking functionality 
 ![image](https://github.com/user-attachments/assets/f3725242-b9e7-40f6-a647-93d9e3102da6)
 > All of the parts (including the stand in for the electronics).
 
-![image](https://github.com/user-attachments/assets/26f8783e-3838-4581-b23d-59ada369f5de)
+![image](https://github.com/user-attachments/assets/4cd99d04-fb56-4e7f-9e23-b178c2decad3)
 > My PCB! 
 
 ![image](https://github.com/user-attachments/assets/78e99f1f-ae72-49a1-aad9-a0e0f041cc12)
