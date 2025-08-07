@@ -13,9 +13,9 @@ Redistributions of any kind must contain this line and the above text (lines 1-9
 #include <Adafruit_GFX.h>
 #include <Adafruit_SH110X.h>
 
-AdafruitIO_Feed *message = io.feed("message"); // feed for incoming messages
-AdafruitIO_Feed *sender = io.feed("sender"); // feed for who sent incoming messages
-AdafruitIO_Feed *sending = io.feed("sending"); // feed for messages being sent out
+AdafruitIO_Feed *message = io.feed("message");
+AdafruitIO_Feed *sender = io.feed("sender");
+AdafruitIO_Feed *sending = io.feed("sending");
 
 #define SCREEN_WIDTH 128
 #define SCREEN_HEIGHT 64
@@ -23,8 +23,8 @@ AdafruitIO_Feed *sending = io.feed("sending"); // feed for messages being sent o
 #define OLED_RESET 5
 #define OLED_DC 16
 #define OLED_CS 15
-#define BUTTON1 2  // Arrow button
-#define BUTTON2 0  // Select
+#define BUTTON1 0  // Arrow button
+#define BUTTON2 2  // Select
 
 String storeMessage = "";
 String storeSender = "Last Message:";
@@ -79,7 +79,7 @@ void setup() {
   display.setTextSize(1);
   display.setTextColor(SH110X_WHITE);
   display.setCursor(0, 0);
-  display.println("Startup!");
+  display.println("Hello World!");
   display.display();
   ringtone();
 }
@@ -112,12 +112,17 @@ void loop() {
     display.println("No");
     display.println("Heart");
     display.println("Goosepheus");
+    printBatt();
     display.display();
     menuopen = true;
     option = 1;
     thistime = true;
   }
+  if (menuopen == true && current == true && last != current) {
+    display.clearDisplay();
+    display.display();
 
+  }
   if (menuopen == true && current == true && last != current) {
     if (option != 7) {
       option++;
@@ -142,6 +147,7 @@ void loop() {
     display.println("No");
     display.println("Heart");
     display.println("Goosepheus");
+    printBatt();
     display.display();
   }
   if (menuopen == true && option == 2 && lastopt != option) {
@@ -156,6 +162,7 @@ void loop() {
     display.println("No");
     display.println("Heart");
     display.println("Goosepheus");
+    printBatt();
     display.display();
   }
   if (menuopen == true && option == 3 && lastopt != option) {
@@ -170,6 +177,7 @@ void loop() {
     display.println("No");
     display.println("Heart");
     display.println("Goosepheus");
+    printBatt();
     display.display();
   }
   if (menuopen == true && option == 4 && lastopt != option) {
@@ -184,6 +192,7 @@ void loop() {
     display.println("No");
     display.println("Heart");
     display.println("Goosepheus");
+    printBatt();
     display.display();
   }
   if (menuopen == true && option == 5 && lastopt != option) {
@@ -198,6 +207,7 @@ void loop() {
     display.println("No <");
     display.println("Heart");
     display.println("Goosepheus");
+    printBatt();
     display.display();
   }
 
@@ -213,6 +223,7 @@ void loop() {
     display.println("No");
     display.println("Heart <");
     display.println("Goosepheus");
+    printBatt();
     display.display();
   }
   if (menuopen == true && option == 7 && lastopt != option) {
@@ -227,6 +238,7 @@ void loop() {
     display.println("No");
     display.println("Heart");
     display.println("Goosepheus <");
+    printBatt();
     display.display();
   }
   if (menuopen == true && selectCurrent == true && selectLast != selectCurrent && thistime == false) {
@@ -312,6 +324,13 @@ void handleMessage(AdafruitIO_Data *data) {
   storeMessage = data->toString();
 }
 
+void printBatt(){
+  int level = analogRead(A0);
+  level = map(level, 293, 400, 0, 100);
+  display.print("Batt: ");
+  display.print(level);
+  display.print("%");
+}
 void handleSender(AdafruitIO_Data *data) {
 
   Serial.print("received <- ");
